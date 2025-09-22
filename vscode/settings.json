@@ -1,0 +1,25 @@
+{
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.linkedEditing": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "cursor.cpp.enablePartialAccepts": true,
+    "cursor.composer.shouldAllowCustomModes": true,
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
+    "workbench.activityBar.location": "hidden",
+}
