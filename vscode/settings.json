@@ -30,4 +30,7 @@
         "--fast"
     ],
     "go.formatTool": "goimports", // needs to be installed
+    "go.buildFlags": [
+        "-tags=unit,integration" // specially useful when build tags are added to files to avoid IDE erros of `No packages found`.
+    ]
 }
