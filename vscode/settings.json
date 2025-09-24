@@ -1,16 +1,9 @@
 {
     "editor.formatOnSave": true,
-    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "editor.linkedEditing": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.iconTheme": "material-icon-theme",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "go.toolsManagement.autoUpdate": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -22,4 +15,18 @@
         "plaintext"
     ],
     "workbench.activityBar.location": "hidden",
+    "protoc": {
+        "options": [
+            "--proto_path=${workspaceRoot}/protos",
+        ]
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "go.testFlags": [
+        "-count=1" // disable testing cache
+    ],
+    "go.lintTool": "golangci-lint",
+    "go.lintOnSave": "package",
+    "go.lintFlags": [
+        "--fast"
+    ]
 }
